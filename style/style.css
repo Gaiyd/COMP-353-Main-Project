@@ -1,0 +1,91 @@
+
+.wrapper{
+    
+    border: 3px solid #00FF00;
+    max-width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.canIFlex{
+  display: flex;
+  justify-content: space-between;
+}
+.centerText{
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navLink{
+    text-decoration: none;
+    color: lightskyblue;
+}
+.navLink:hover{
+    text-decoration: none;
+    color: darkslateblue;
+}
+
+
+body{
+    background-color: black;
+    color: #00FF00;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    border: 3px solid whitesmoke;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: aliceblue;
+    margin-top: 20px;
+    
+}
+footer ul{
+    list-style-type: none;
+    padding-inline-start: 5px;
+}
+form{
+
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+}
+
+label{
+    padding-top: 10px;
+}
+details{
+    padding-top: 10px;
+}
+input[type = "submit"]{
+    margin-top: 10px;
+}
+
+details:hover{
+    color: aliceblue;
+}
+
+
+.displayTable{
+    border: 3px solid #00FF00;
+    border-collapse: collapse;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+th{
+    border: 3px solid #00FF00;
+}
+
+td{
+    border : 3px dotted #00FF00;
+    padding: 10px;
+    
+}
+
